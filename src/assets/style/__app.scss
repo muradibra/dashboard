@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 345px auto;
+
+    .sidebar {
+        height: 100vh;
+        background-color: #fff;
+        padding: 50px 46px 0;
+
+        .logo-section {
+            margin-bottom: 46px;
+
+        }
+
+        h1 {
+            margin: 0 0 0 24px;
+        }
+
+        ul {
+            list-style: none;
+
+            div {
+                li {
+                    padding: 0 20px;
+                }
+            }
+
+            li {
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: #737791;
+                    vertical-align: middle;
+                }
+
+                a:not(.dashboard-btn) {
+                    padding: 24px 0;
+                }
+
+                .dashboard-btn {
+                    background-color: #5D5FEF;
+                    color: #fff;
+                    border-radius: 16px;
+                    margin: 24px 0;
+
+                    img {
+                        display: inline-block;
+                        padding: 16px 24px;
+                    }
+                }
+
+                .icon {
+                    margin-right: 24px;
+                    color: #737791;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.content {
+    background-color: #FAFBFC;
+
+    .content-inner {
+        padding: 2rem;
+    }
+}
